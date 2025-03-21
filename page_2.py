@@ -1,26 +1,32 @@
 import pandas as pd
 import streamlit as st
 
-st.title("St Nicholas Girls School")
+st.subheader("Factors Affecting Biodiversity")
+st.subheader("Human Activities:")
+st.markdown('- Tourism')
+st.markdown('- Deforestation ')
+st.markdown('- Climate Change')
+st.markdown('- Pollution')
+st.markdown('- Habitat Fragmentation')
+st.markdown('- Invasion Species')
+st.markdown('- Overexploitation')
 
-st.header("The Pigathon Team")
+st.write("")
+st.write("")
+st.image("img/Lock_down_impact.jpg")
 
-st.write("Click the button to show our school coordinate!")
+st.write("")
+st.write("")
+st.subheader("Possible Solutions:")
+st.markdown("- Promote Eco-Tourism & Reponsible Tourism")
+st.markdown("- Protect Forests Through Laws & Protected Areas")
+st.markdown("- Reduce Greenhouse gas emissions")
+st.markdown("- Improve Pollution Control Measures")
+st.markdown("- Implement Better Land-Use Planning")
+st.markdown("- Detect and Respond to Invasive Species Quickly")
+st.markdown("- Protect Endangered Species Through Stronger Laws")
 
-if "show_map" not in st.session_state:
-    st.session_state.show_map = False
+st.write("")
+st.write("")
 
-def toggle_map():
-    st.session_state.show_map = not st.session_state.show_map
-
-st.button(
-    "Hide Map" if st.session_state.show_map else "Show Map",
-    on_click=toggle_map,
-)
-
-if st.session_state.show_map:
-    data = pd.DataFrame({
-        "lat": [1.3740],
-        "lon": [103.8342],
-    })
-    st.map(data)
+st.subheader("However, MOST IMPORTANTLY, we have to reduce the human activities occurence to the environment that will serve as ecosystem disruptions")
