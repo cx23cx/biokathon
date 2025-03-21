@@ -29,4 +29,4 @@ st.markdown("- Protect Endangered Species Through Stronger Laws")
 st.write("")
 st.write("")
 
-st.subheader("However, MOST IMPORTANTLY, we have to reduce the human activities occurence to the environment that will serve as ecosystem disruptions")
+st.subheader("However, MOST IMPORTANTLY, we must reduce human activities that impact the environment, as they can lead to ecosystem disruptions.")
